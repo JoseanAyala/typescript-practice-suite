@@ -1,9 +1,11 @@
-export default function twoSum(numbers: number[], target: number): number[] {
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
+export function twoSum(numbers: number[], target: number): number[] {
   return [];
 }
 
 // More than N time complexity. Not good enough
-export function twoSumBad(numbers: number[], target: number): number[] {
+export default function twoSumBad(numbers: number[], target: number): number[] {
   let head = 0;
   while (head < numbers.length) {
     let current = head + 1;

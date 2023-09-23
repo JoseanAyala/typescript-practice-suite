@@ -1,4 +1,4 @@
-import validPalindrome from "../src/validPalindrome";
+import isPalindrome from "../src/validPalindrome";
 
 const testCases = [
   { input: "A man, a plan, a canal: Panama", result: true },
@@ -9,7 +9,7 @@ const testCases = [
 describe("Verify if the passed in string is a palindrome.", () => {
   testCases.forEach((testCase) => {
     test(`${testCase.input} a valid palindrome?`, () => {
-      const result = validPalindrome(testCase.input);
+      const result = isPalindrome(testCase.input);
       expect(result).toBe(testCase.result);
     });
   });
