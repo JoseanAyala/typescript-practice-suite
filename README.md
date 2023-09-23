@@ -46,7 +46,7 @@ To get started with this project, follow these steps:
 The project directory structure is organized as follows:
 
 ```
-typescript-leetcode-solutions/
+typescript-practice-suite/
 ├── src/
 │   ├── problem1.ts
 │   ├── problem2.ts
