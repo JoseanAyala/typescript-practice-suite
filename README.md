@@ -7,8 +7,6 @@ Welcome to my TypeScript LeetCode solutions repository! This project contains Ty
 - [Getting Started](#getting-started)
 - [Directory Structure](#directory-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 

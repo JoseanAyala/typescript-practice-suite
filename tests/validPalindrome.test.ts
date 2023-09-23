@@ -1,4 +1,4 @@
-import validPalindrome from "../src/problem/validPalindrome";
+import validPalindrome from "../src/validPalindrome";
 
 const testCases = [
   { input: "A man, a plan, a canal: Panama", result: true },
