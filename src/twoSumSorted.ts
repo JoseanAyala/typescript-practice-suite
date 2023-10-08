@@ -1,11 +1,24 @@
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
-export function twoSum(numbers: number[], target: number): number[] {
+export default function twoSum(numbers: number[], target: number): number[] {
+  let left = 0;
+  let right = numbers.length - 1;
+
+  while (left < right) {
+    const sum = numbers[left] + numbers[right];
+
+    if (sum === target) return [left + 1, right + 1];
+    if (sum > target) {
+      right--;
+    } else {
+      left++;
+    }
+  }
   return [];
 }
 
 // More than N time complexity. Not good enough
-export default function twoSumBad(numbers: number[], target: number): number[] {
+export function twoSumBad(numbers: number[], target: number): number[] {
   let head = 0;
   while (head < numbers.length) {
     let current = head + 1;
